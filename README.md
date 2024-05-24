@@ -1,4 +1,4 @@
-
+#Face Recognition Attendance System
 
 In the digital era, the need for efficient and accurate attendance management systems has become paramount in educational institutions and workplaces. Traditional methods of recording attendance, such as roll calls and sign-in sheets, are not only time-consuming but also prone to human error and manipulation. These conventional methods often lead to inaccuracies in attendance records, either due to deliberate proxy attendance or simple clerical errors. Furthermore, the manual process of taking attendance can consume significant classroom or meeting time, detracting from the primary educational or business activities. To address these challenges, we propose the development of a Face Recognition Attendance System using Android Java and Firebase Realtime Database.
 
