@@ -11,7 +11,7 @@ Integrating with Firebase Realtime Database: Using Firebase to store and manage 
 
 # Models And Database 
 ```
-  1.tensorFlow Model (Moblie_face_net.tflite )
+  1.tensorFlow Model (Mobile_face_net.tflite )
   2.ML Kit (SDK )
   3.Firebase Database (Realtime)
 ```
