@@ -12,10 +12,12 @@ Integrating with Firebase Realtime Database: Using Firebase to store and manage 
 
 Android Application: Developed in Java, this will include a login screen, a user registration module, and an attendance interface. The application will handle capturing and preprocessing facial images. Face Recognition Module: This will incorporate algorithms for detecting and recognizing faces. The module will be responsible for matching captured images with stored facial data to verify identities. Firebase Realtime Database: This cloud-based NoSQL database will store user profiles and attendance records. It offers real-time data synchronization, ensuring that updates are reflected immediately across all connected devices.
 
-# Models And Database
-## 1.tensorFlow Model (Moblie Face Net )
-## 2.ML Kit (SDK )
-## 3.Firebase Database (Realtime)
+# Models And Database 
+```
+  1.tensorFlow Model (Moblie Face Net )
+  2.ML Kit (SDK )
+  3.Firebase Database (Realtime)
+```
 
 
 
