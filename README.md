@@ -14,7 +14,7 @@ Android Application: Developed in Java, this will include a login screen, a user
 
 # Models And Database 
 ```
-  1.tensorFlow Model (Moblie Face Net )
+  1.tensorFlow Model (Moblie_face_net.tflite )
   2.ML Kit (SDK )
   3.Firebase Database (Realtime)
 ```
