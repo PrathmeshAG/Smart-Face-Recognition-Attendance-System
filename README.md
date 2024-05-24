@@ -1,4 +1,4 @@
-### Face Recognition Attendance System
+# Face Recognition Attendance System
  
 In the digital era, the need for efficient and accurate attendance management systems has become paramount in educational institutions and workplaces. Traditional methods of recording attendance, such as roll calls and sign-in sheets, are not only time-consuming but also prone to human error and manipulation. These conventional methods often lead to inaccuracies in attendance records, either due to deliberate proxy attendance or simple clerical errors. Furthermore, the manual process of taking attendance can consume significant classroom or meeting time, detracting from the primary educational or business activities. To address these challenges, we propose the development of a Face Recognition Attendance System using Android Java and Firebase Realtime Database.
 
@@ -11,6 +11,12 @@ Implementing Face Recognition: Integrating a robust face recognition algorithm c
 Integrating with Firebase Realtime Database: Using Firebase to store and manage user profiles and attendance records. Firebase provides a scalable, real-time database solution that ensures data synchronization across all clients instantaneously.System Overview The proposed system follows a client-server architecture where the Android application acts as the client, interacting with users and capturing their facial data. The Firebase Realtime Database serves as the backend, managing the storage and retrieval of data. The face recognition processing can be performed either on-device or via cloud-based services, providing flexibility based on the deployment environment.
 
 Android Application: Developed in Java, this will include a login screen, a user registration module, and an attendance interface. The application will handle capturing and preprocessing facial images. Face Recognition Module: This will incorporate algorithms for detecting and recognizing faces. The module will be responsible for matching captured images with stored facial data to verify identities. Firebase Realtime Database: This cloud-based NoSQL database will store user profiles and attendance records. It offers real-time data synchronization, ensuring that updates are reflected immediately across all connected devices.
+
+# Models And Database
+## 1.tensorFlow Model (Moblie Face Net )
+## 2.ML Kit (SDK )
+## 3.Firebase Database (Realtime)
+
 
 
 
