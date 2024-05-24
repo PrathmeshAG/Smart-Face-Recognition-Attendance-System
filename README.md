@@ -21,6 +21,9 @@ Android Application: Developed in Java, this will include a login screen, a user
 # Creator ( Develop And Manage Database)
 [Prathmesh Bobade ](https://github.com/PrathmeshAG)
 
+> [! NOTE]
+> Add Dependancies properly and Sync
+
 
 
 
