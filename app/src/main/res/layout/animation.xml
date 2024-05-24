@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/animated_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Student!!"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:layout_centerInParent="true"
+        android:textSize="29sp"/>
+    <TextView
+        android:id="@+id/animated_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcomes to....... "
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:layout_centerInParent="true"
+        android:textSize="19sp"/>
+    <TextView
+        android:id="@+id/animated_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face Recognition Attentances System"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:textSize="22sp"/>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Digital Attendance </string>
+    <string name="fullName">Enter Student Full Name  </string>
+    <string name="address">Enter Student Address </string>
+    <string name="mobileNumber">Enter Student Mobile Number</string>
+    <string name="branch">Enter Student Branch </string>
+    <string name="rollNo">Enter Student Roll No.. </string>
+    <string name="dateOfBirth">Enter Student Date Of Birth </string>
+    <string name="password">Enter Student  Password </string>
+    <string name="rePassword">Enter Student  RePassword </string>
+    <string name="submitbutton">Add Student </string>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".AddStudentActivity">
+
+    <ImageView
+        android:id="@+id/face"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="@string/fullName"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/mobileNumber"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1" />
+
+    <AutoCompleteTextView
+        android:id="@+id/designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/branch"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textCapWords"
+        android:maxLines="1" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:visibility="gone"
+        android:backgroundTint="@color/pro_white"/>
+    <EditText
+        android:id="@+id/salaryPerMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/rollNo"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/dateOfBirth"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="date"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:maxLength="15"
+        android:maxLines="1" />
+
+
+
+    <Button
+        android:id="@+id/addEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/submitbutton"
+        android:backgroundTint="@color/light_blue"/>
+
+
+
+
+
+</LinearLayout>
